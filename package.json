@@ -1,0 +1,11 @@
+{
+  "name": "free-writing-tools-directory",
+  "version": "1.0.0",
+  "description": "A no-account, no-affiliate directory of free writing and editing tools. Published by Asdale Dynamics, LLC.",
+  "private": true,
+  "scripts": {
+    "test": "node verify.js",
+    "serve": "python3 -m http.server 8000"
+  },
+  "license": "MIT"
+}
