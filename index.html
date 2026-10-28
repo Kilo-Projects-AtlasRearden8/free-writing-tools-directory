@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Free Writing & Editing Tools — Asdale Dynamics, LLC</title>
+<meta name="description" content="A no-account, no-affiliate directory of free word processors, distraction-free editors, grammar help, name generators, and ebook converters.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <div class="brand">
+      <span class="brand-mark">AD</span>
+      <div class="brand-text">
+        <div class="brand-name">Asdale Dynamics, LLC</div>
+        <div class="brand-role">Free Writing & Editing Tools</div>
+      </div>
+    </div>
+    <p class="site-tag">Free word processors, distraction-free editors, grammar help, name generators, and ebook converters. No account. No affiliate links.</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="controls">
+    <div class="search-box">
+      <label for="search" class="visually-hidden">Search tools</label>
+      <input type="search" id="search" placeholder="Search by name, category, platform&hellip;" aria-controls="tool-list">
+      <span class="search-hint" aria-hidden="true">Client-side search &bull; nothing leaves your browser</span>
+    </div>
+
+    <div class="filters">
+      <button type="button" class="filter-btn active" data-category="all">All categories</button>
+      <button type="button" class="filter-btn" data-category="word-processors">Word Processors</button>
+      <button type="button" class="filter-btn" data-category="distraction-free">Distraction-Free Editors</button>
+      <button type="button" class="filter-btn" data-category="grammar-help">Grammar &amp; Style Help</button>
+      <button type="button" class="filter-btn" data-category="name-generators">Name Generators</button>
+      <button type="button" class="filter-btn" data-category="ebook-converters">Ebook Converters</button>
+    </div>
+
+    <p class="count" id="count" aria-live="polite">Loading tools&hellip;</p>
+  </section>
+
+  <section class="grid" id="tool-list" aria-label="Free writing and editing tools">
+    <!-- Cards injected here by script.js -->
+  </section>
+
+  <template id="tool-card">
+    <article class="card" data-category="">
+      <div class="card-body">
+        <header class="card-header">
+          <h3 class="card-name"></h3>
+          <span class="badge badge-cost"></span>
+        </header>
+        <p class="card-desc"></p>
+        <ul class="card-meta">
+          <li><strong>Platform:</strong> <span class="meta-platform"></span></li>
+          <li><strong>Account:</strong> <span class="meta-account">No account needed</span></li>
+        </ul>
+        <div class="card-steps">
+          <strong>Steps:</strong>
+          <ol></ol>
+        </div>
+        <a class="card-link" href="" target="_blank" rel="noopener noreferrer">Official link &rarr;</a>
+      </div>
+    </article>
+  </template>
+
+  <p id="no-results" class="no-results" hidden>No tools match your search. Try another keyword or clear the filters.</p>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="footer-credit">&copy; 2026 Asdale Dynamics, LLC. Free writing and editing tools directory. No affiliate links. No secrets, API keys, or personal data stored.</p>
+    <p class="footer-links"><a href="tools.md">View Markdown directory</a> &bull; <a href="README.md">About this project</a></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

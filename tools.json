@@ -1,0 +1,235 @@
+{
+  "title": "Free Writing &amp; Editing Tools",
+  "subtitle": "A no-account, no-affiliate directory of free word processors, distraction-free editors, grammar help, name generators, and ebook converters.",
+  "credit": "Published by Asdale Dynamics, LLC",
+  "categories": [
+    { "id": "word-processors", "label": "Word Processors" },
+    { "id": "distraction-free", "label": "Distraction-Free Editors" },
+    { "id": "grammar-help", "label": "Grammar &amp; Style Help" },
+    { "id": "name-generators", "label": "Name Generators" },
+    { "id": "ebook-converters", "label": "Ebook Converters" }
+  ],
+  "tools": [
+    {
+      "id": "libreoffice-writer",
+      "name": "LibreOffice Writer",
+      "category": "word-processors",
+      "cost": "Free",
+      "platform": ["Windows", "macOS", "Linux"],
+      "description": "Full-featured open-source word processor. Opens and saves .docx and .odt files, with styles, templates, and export to PDF.",
+      "steps": [
+        "Download the installer from libreoffice.org.",
+        "Run the installer and follow the prompts.",
+        "Open LibreOffice Writer from your start menu or Applications folder.",
+        "Start writing; use File &gt; Export as PDF to share."
+      ],
+      "link": "https://www.libreoffice.org/",
+      "accountRequired": false,
+      "affiliate": false
+    },
+    {
+      "id": "openoffice-writer",
+      "name": "Apache OpenOffice Writer",
+      "category": "word-processors",
+      "cost": "Free",
+      "platform": ["Windows", "macOS", "Linux"],
+      "description": "Classic open-source office suite. Writer handles documents, letters, and basic formatting without an account or subscription.",
+      "steps": [
+        "Download the installer from openoffice.org.",
+        "Install and launch Apache OpenOffice.",
+        "Open Writer and begin editing your document.",
+        "Save as .odt or export as PDF when finished."
+      ],
+      "link": "https://www.openoffice.org/",
+      "accountRequired": false,
+      "affiliate": false
+    },
+    {
+      "id": "onlyoffice-desktop",
+      "name": "ONLYOFFICE Desktop Editors",
+      "category": "word-processors",
+      "cost": "Free",
+      "platform": ["Windows", "macOS", "Linux"],
+      "description": "Free desktop office suite with strong .docx compatibility. Works fully offline; no account required for local editing.",
+      "steps": [
+        "Download ONLYOFFICE Desktop Editors from onlyoffice.com.",
+        "Install the app for your operating system.",
+        "Launch the Document editor and open or create a file.",
+        "Edit locally and save to your computer."
+      ],
+      "link": "https://www.onlyoffice.com/",
+      "accountRequired": false,
+      "affiliate": false
+    },
+    {
+      "id": "focuswriter",
+      "name": "FocusWriter",
+      "category": "distraction-free",
+      "cost": "Free",
+      "platform": ["Windows", "macOS", "Linux"],
+      "description": "Distraction-free writing app that hides menus and toolbars until you need them. Includes daily goals, timers, and typewriter sound effects.",
+      "steps": [
+        "Download FocusWriter from gottcode.org/focuswriter.",
+        "Install and open the app.",
+        "Move your mouse to the screen edges to reveal menus when needed.",
+        "Set a daily goal or timer, then write full-screen."
+      ],
+      "link": "https://gottcode.org/focuswriter/",
+      "accountRequired": false,
+      "affiliate": false
+    },
+    {
+      "id": "writemonkey",
+      "name": "WriteMonkey",
+      "category": "distraction-free",
+      "cost": "Free (donationware)",
+      "platform": ["Windows"],
+      "description": "Lightweight, portable distraction-free editor for Windows. Runs from a USB stick with no install, and asks for nothing but your words.",
+      "steps": [
+        "Download the portable ZIP from writemonkey.com.",
+        "Extract the folder and run WriteMonkey.exe.",
+        "Choose a font and background in the menu, then write.",
+        "Save your file (.txt or .md) when done."
+      ],
+      "link": "https://writemonkey.com/",
+      "accountRequired": false,
+      "affiliate": false
+    },
+    {
+      "id": "calmly-writer",
+      "name": "Calmly Writer",
+      "category": "distraction-free",
+      "cost": "Free (web)",
+      "platform": ["Web"],
+      "description": "Minimalist in-browser editor with a focus mode that dims everything except the current paragraph. Works offline once loaded.",
+      "steps": [
+        "Open calmlywriter.com in your browser.",
+        "Start typing in the blank document.",
+        "Use the menu for formatting, word count, and save options.",
+        "Save as .txt, .md, or HTML to your computer."
+      ],
+      "link": "https://calmlywriter.com/",
+      "accountRequired": false,
+      "affiliate": false
+    },
+    {
+      "id": "hemingway-editor",
+      "name": "Hemingway Editor (web)",
+      "category": "grammar-help",
+      "cost": "Free (web)",
+      "platform": ["Web"],
+      "description": "Highlights hard-to-read sentences, passive voice, and adverbs so you can make your writing bolder and clearer. The web version is free and needs no account.",
+      "steps": [
+        "Go to hemingwayapp.com and paste your text.",
+        "Review the color-coded highlights (yellow = hard to read, red = very hard).",
+        "Rewrite dense sentences until the grade level drops.",
+        "Copy the polished text back into your editor."
+      ],
+      "link": "https://www.hemingwayapp.com/",
+      "accountRequired": false,
+      "affiliate": false
+    },
+    {
+      "id": "languagetool",
+      "name": "LanguageTool",
+      "category": "grammar-help",
+      "cost": "Free",
+      "platform": ["Web", "Windows", "macOS", "Linux"],
+      "description": "Open-source grammar, style, and spell checker supporting 30+ languages. The web checker works with no sign-up; desktop and plugin options are also free.",
+      "steps": [
+        "Go to languagetool.org and paste your text.",
+        "Select your language and review the underlined suggestions.",
+        "Accept or ignore each suggestion as you see fit.",
+        "Optionally install the free desktop app or browser add-on."
+      ],
+      "link": "https://languagetool.org/",
+      "accountRequired": false,
+      "affiliate": false
+    },
+    {
+      "id": "slick-write",
+      "name": "Slick Write",
+      "category": "grammar-help",
+      "cost": "Free",
+      "platform": ["Web"],
+      "description": "Free web-based proofreader that checks grammar, style, flow, sentence structure, and vocabulary. Nothing to install and no account required.",
+      "steps": [
+        "Open slickwrite.com in your browser.",
+        "Paste your writing into the text box.",
+        "Click Proofread and review the suggestions.",
+        "Apply the changes you like and copy the result."
+      ],
+      "link": "https://www.slickwrite.com/",
+      "accountRequired": false,
+      "affiliate": false
+    },
+    {
+      "id": "reedsy-name-generator",
+      "name": "Reedsy Character Name Generator",
+      "category": "name-generators",
+      "cost": "Free",
+      "platform": ["Web"],
+      "description": "Generates character names by language, era, meaning, and archetype. Useful for fiction authors naming heroes, villains, and side characters.",
+      "steps": [
+        "Visit the Reedsy Character Name Generator page.",
+        "Pick a category, origin, or meaning filter.",
+        "Browse the generated names and save the ones you like.",
+        "Use your favorites in your story."
+      ],
+      "link": "https://blog.reedsy.com/character-name-generator/",
+      "accountRequired": false,
+      "affiliate": false
+    },
+    {
+      "id": "fantasy-name-generators",
+      "name": "Fantasy Name Generators",
+      "category": "name-generators",
+      "cost": "Free",
+      "platform": ["Web"],
+      "description": "Hundreds of name generators for fantasy, sci-fi, real-world, and pet names. No account, no ads for core generation, and free to use.",
+      "steps": [
+        "Go to fantasy-name-generators.com.",
+        "Choose a generator matching your setting (fantasy, sci-fi, etc.).",
+        "Click to generate a batch of names.",
+        "Pick your favorite and use it in your project."
+      ],
+      "link": "https://www.fantasy-name-generators.com/",
+      "accountRequired": false,
+      "affiliate": false
+    },
+    {
+      "id": "calibre",
+      "name": "Calibre",
+      "category": "ebook-converters",
+      "cost": "Free",
+      "platform": ["Windows", "macOS", "Linux"],
+      "description": "The open-source ebook library manager and converter. Converts between EPUB, MOBI, AZW3, PDF, and more, plus editing and metadata tools.",
+      "steps": [
+        "Download Calibre from calibre-ebook.com.",
+        "Install and launch Calibre.",
+        "Add your book file (click Add books).",
+        "Select the book and click Convert books to choose your output format."
+      ],
+      "link": "https://calibre-ebook.com/",
+      "accountRequired": false,
+      "affiliate": false
+    },
+    {
+      "id": "online-convert-ebook",
+      "name": "Online Convert (Ebook Converter)",
+      "category": "ebook-converters",
+      "cost": "Free",
+      "platform": ["Web"],
+      "description": "Free web-based file converter that turns documents into EPUB, MOBI, AZW3, and other ebook formats. Basic conversions work with no account.",
+      "steps": [
+        "Go to online-convert.com and choose Ebook converter.",
+        "Upload your document or paste a file URL.",
+        "Pick the target ebook format and start conversion.",
+        "Download the converted ebook when ready."
+      ],
+      "link": "https://www.online-convert.com/",
+      "accountRequired": false,
+      "affiliate": false
+    }
+  ]
+}
